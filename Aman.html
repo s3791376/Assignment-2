@@ -6,6 +6,54 @@
 -->
 <html>
 	<head>
+		<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 100%;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left	;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
 		<title>Aman</title>
 		<!-- Put your name in the title element above. -->
 		<meta charset="utf-8" />
@@ -56,8 +104,30 @@
 					<div id="main">
 						<div class="inner">
 							<h1>Aman Kumar</h1>
-							<span class="image main"><img src="images/Banner_Aman.jpg" alt="" /></span>
+							<span class="image main"><img src="images/Aman/Banner_Aman.jpg" alt="" /></span>
 							<p>My name is Aman Kumar, I am an Indian Migrant from Fiji. I was born in Papua New Guinea on May the 11th 2000. I migrated to Australia in 2001 and have grown up here, and as such only speak English. I attended school in the western suburbs of Melbourne graduating from year 12 from Lakeview Senior College. Whilst in highschool I was fortunate enough to complete a VET in schools course where I recived my Certificate III in Information Digital Media and Technology. I've been interested in IT from a very young age creating "backups" of games for my Nintendo DS' flashcart when I was 9 years old, to even building my own desktop at 14. My favourite hobby would definitely be video games and gaming, specifically playing MOBA's such as League of Legends, DoTA and HoTS. As of current I have no professional IT experience. <br> Student Number: S3785534 </p>
+
+							<div class="responsive">
+							  <div class="gallery">
+							      <img src="images/Aman/Myers_Briggs.png" alt="Error" width="300" height="340">
+							    <div class="desc">Myers Briggs Results</div>
+							  </div>
+							</div>
+
+							<div class="responsive">
+							  <div class="gallery">
+							      <img src="images/Aman/Creativity_Test.png" alt="Error" width="300" height="340">
+							    <div class="desc">Creativity Test Results</div>
+							  </div>
+							</div>
+
+							<div class="responsive">
+							  <div class="gallery">
+							      <img src="images/Aman/Learning_Style.png" alt="Error" width="300" height="340">
+							    <div class="desc">Learning Style Results</div>
+							  </div>
+							</div>
+
 						</div>
 					</div>
 
